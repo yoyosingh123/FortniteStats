@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  width: 90vw;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
@@ -77,19 +77,4 @@ p {
 
 .input::placeholder {
   color: #DDDDDD;
-}
-
-.svg_icon {
-  position: absolute;
-  left: 10px;
-  fill: #4660DC;
-  width: 3vw;
-  height: 3vw;
-  scale: 1;
-  transition: 0.15s ease;
-}
-
-.svg_icon:hover {
-  scale: 1.1;
-  transition: 0.1s ease;
 }
