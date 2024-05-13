@@ -80,8 +80,6 @@ function handleMain(user = "") {
   }
 }
 
-const svg = document.querySelector('.svg_icon')
-
 function enter() {
   if (input.value != "" && input.value.length > 3 - 1) {
     handleMain(input.value)
@@ -89,7 +87,6 @@ function enter() {
   }
 }
 
-svg.addEventListener('click', enter)
 document.addEventListener('keyup', function(e) {
   if (e.key == "Enter") {
     enter()
