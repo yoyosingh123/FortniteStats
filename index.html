@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Data Presentation</title>
+    <link rel="stylesheet" src="./style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Fortnite Stats</h1>
+      <div class="custom_input">
+        <svg title = "Search" xmlns="http://www.w3.org/2000/svg" class="svg_icon bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+        </svg>
+        <input class="input" type="text" placeholder="Username" min="3" max="20">
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <h2>Solo Stats</h2>
+          <p>K/D: <span id="solo-kd"></span></p>
+          <p>Kills: <span id="solo-kills"></span></p>
+          <p>Matches Played:<span id="solo-matchesplayed"></span></p>
+          <p>Minutes Played:<span id="solo-minutesplayed"></span></p>
+          <p>Place Top 1's:<span id="solo-placetop1"></span></p>
+          <p>Place Top 3's:<span id="solo-placetop3"></span></p>
+          <p>Place Top 5's:<span id="solo-placetop5"></span></p>
+          <p>Place Top 10's:<span id="solo-placetop10"></span></p>
+          <p>Players Out Lived:<span id="solo-playersoutlived"></span></p>
+          <p>Win Rate:<span id="solo-winrate"></span></p>
+        </div>
+        <div class="stat">
+          <h2>Duo Stats</h2>
+          <p>K/D: <span id="duo-kd"></span></p>
+          <p>Kills: <span id="duo-kills"></span></p>
+          <p>Matches Played:<span id="duo-matchesplayed"></span></p>
+          <p>Minutes Played:<span id="duo-minutesplayed"></span></p>
+          <p>Place Top 1's:<span id="duo-placetop1"></span></p>
+          <p>Place Top 3's:<span id="duo-placetop3"></span></p>
+          <p>Place Top 5's:<span id="duo-placetop5"></span></p>
+          <p>Place Top 10's:<span id="duo-placetop10"></span></p>
+          <p>Players Out Lived:<span id="duo-playersoutlived"></span></p>
+          <p>Win Rate:<span id="duo-winrate"></span></p>
+        </div>
+        <div class="stat">
+          <h2>Trio Stats</h2>
+          <p>K/D: <span id="trio-kd"></span></p>
+          <p>Kills: <span id="trio-kills"></span></p>
+          <p>Matches Played:<span id="trio-matchesplayed"></span></p>
+          <p>Minutes Played:<span id="trio-minutesplayed"></span></p>
+          <p>Place Top 1's:<span id="trio-placetop1"></span></p>
+          <p>Place Top 3's:<span id="trio-placetop3"></span></p>
+          <p>Place Top 5's:<span id="trio-placetop5"></span></p>
+          <p>Place Top 10's:<span id="trio-placetop10"></span></p>
+          <p>Players Out Lived:<span id="trio-playersoutlived"></span></p>
+          <p>Win Rate:<span id="trio-winrate"></span></p>
+        </div>
+        <div class="stat">
+          <h2>Squad Stats</h2>
+          <p>K/D: <span id="squad-kd"></span></p>
+          <p>Kills: <span id="squad-kills"></span></p>
+          <p>Matches Played:<span id="squad-matchesplayed"></span></p>
+          <p>Minutes Played:<span id="squad-minutesplayed"></span></p>
+          <p>Place Top 1's:<span id="squad-placetop1"></span></p>
+          <p>Place Top 3's:<span id="squad-placetop3"></span></p>
+          <p>Place Top 5's:<span id="squad-placetop5"></span></p>
+          <p>Place Top 10's:<span id="squad-placetop10"></span></p>
+          <p>Players Out Lived:<span id="squad-playersoutlived"></span></p>
+          <p>Win Rate:<span id="squad-winrate"></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+
+</html>
