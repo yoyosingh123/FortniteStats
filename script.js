@@ -47,6 +47,10 @@ const ids = [
     'score',
     'winrate'
 ]
+const account_ids = [
+	"level",
+  "process_pct"
+]
 
 function handleData(stats = {}) {
   for (const team in stats){
@@ -67,6 +71,14 @@ function handleMain(user = "") {
           fetch_data('https://fortniteapi.io/v1/stats?account=' + id)
             .then((data) => {
               if (data.result) {
+              console.log(data)
+              	for (const id in data.account){
+                	const val = data.account[id]
+                  if (account_ids.includes(id)){
+                  	document.getElementById('accounts-' + id).innerText = val
+                  }
+                }
+                
                 const stats = data.global_stats
                 handleData(stats)
               } else {
