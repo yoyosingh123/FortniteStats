@@ -28,7 +28,7 @@ async function getAccountId(name = "") {
 
 //{account:{level:0, season:0}, global_stats:{duo:{}, solo:{}, trio:{}, squad: {}}, name:"", seasons_available:0, result:true}
 
-//kd: number,kills: number,lastmodified: number, matchesplayed: number, minutesplayed: number, placetop1: number, placetop10: number, placetop12: number, placetop25: number, placetop3: number, placetop5: number, placetop6: number, playersoutlived: number, score: number, winrate: number, wins: number,
+//kd: number,kills: number,lastmodified: number, matchesplayed: number, minutesplayed: number, placetop1: number, placetop10: number, placetop12: number, placetop25: number, placetop3: number, placetop5: number, placetop6: number, playersoutlived: number, score: number, winrate: number,
 
 const ids = [
 		'kd',
@@ -46,7 +46,6 @@ const ids = [
     'playersoutlived',
     'score',
     'winrate'
-    'wins'
 	
 ]
 const account_ids = [
